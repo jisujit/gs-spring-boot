@@ -11,7 +11,8 @@ variables:
 
   # Azure Resource Manager connection created during pipeline creation
   #azureSubscription: '4c8e7db9-7472-409e-8b5a-49c63cab73e1'
-  azureSubscription: 'af3632d4-34d9-4a09-9f5b-4b57ddf652dd'
+  #Adding the service connection name instead of subscription id for azureSubscription parameter
+  azureSubscription: 'gsujitADOservice4Pipelines'
   # Web app name
   webAppName: 'java-spring-boot'
 
